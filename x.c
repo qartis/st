@@ -297,6 +297,7 @@ void
 selcopy(Time t)
 {
 	xsetsel(getsel(), t);
+	xclipcopy();
 }
 
 void
